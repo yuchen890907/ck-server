@@ -1,0 +1,30 @@
+const router = require("express").Router();
+
+router.use("/boms", require("./boms"));
+router.use("/employees", require("./employees"));
+router.use("/genericgoods", require("./genericgoods"));
+router.use("/guides", require("./guides"));
+router.use("/productclasses", require("./productclasses"));
+router.use("/products", require("./products"));
+router.use("/punchrecords", require("./punchrecords"));
+router.use("/purchasedetails", require("./purchasedetails"));
+router.use("/purchaseorders", require("./purchaseorders"));
+router.use("/purchases", require("./purchases"));
+router.use("/saledetails", require("./saledetails"));
+router.use("/saleorders", require("./saleorders"));
+router.use("/sales", require("./sales"));
+router.use("/schedules", require("./schedules"));
+router.use("/seats", require("./seats"));
+router.use("/sopform", require("./sopform"));
+router.use("/soprecords", require("./soprecords"));
+router.use("/suppliers", require("./suppliers"));
+router.use("/suppliers", require("./suppliers"));
+router.use("/positions", require("./positions"));
+router.use("/earningrecord", require("./earningrecord"));
+router.use("/customclasses", require("./customclasses"));
+router.use("/customization", require("./customization"));
+router.use("/productcustom", require("./productcustom"));
+router.use("/menu", require("./menu"));
+router.use("/orders", require("./orders"));
+
+module.exports = router;
